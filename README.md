@@ -18,6 +18,6 @@ ATTENTION : Vos touches seront misent par défaut. Il faudra les réassigner à 
 1. LANCER patch.exe
 2. ENJOY !
 
-![]([https://img.shields.io/github/downloads/40nyx/Cyberpunk-2077-mapping-AZERTY-FIX/total?style=for-the-badge]https://github.com/40nyx/Cyberpunk-2077-mapping-AZERTY-FIX/archive/refs/heads/main.zip)
+![][https://img.shields.io/github/downloads/40nyx/Cyberpunk-2077-mapping-AZERTY-FIX/total?style=for-the-badge](https://github.com/40nyx/Cyberpunk-2077-mapping-AZERTY-FIX/archive/refs/heads/main.zip)
 
 ![](https://media.giphy.com/media/qWi6NKfkrt9TgXvIfg/giphy.gif)
