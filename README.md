@@ -24,5 +24,3 @@ ATTENTION : Vos touches seront misent par défaut. Il faudra les réassigner à 
 
 
 ![](https://i.giphy.com/media/qWi6NKfkrt9TgXvIfg/giphy.webp)
-
-@MADE BY AONYX
