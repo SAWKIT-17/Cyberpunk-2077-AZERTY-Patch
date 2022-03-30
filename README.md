@@ -10,9 +10,9 @@ Dont certaines importantes comme :
 * Etc...
 
 Ce qui amène au joueur AZERTY certains problèmes.
-Ce patch permettra de remapper correctement ses touches afins d'avoir un confort de jeu optimal.
+Ce patch permettra de remapper correctement ses touches afin d'avoir un confort de jeu optimal.
 
-ATTENTION : Vos touches seront misent par défaut. Il faudra les réassigner à votre guise. (On règle ce problème dans la prochaine update.)
+ATTENTION : Vos touches seront mises par défaut. Il faudra les réassigner à votre guise. (On règle ce problème dans la prochaine update.)
 
 ## INSTRUCTION
 1. DÉCOMPRESSER LE ZIP
