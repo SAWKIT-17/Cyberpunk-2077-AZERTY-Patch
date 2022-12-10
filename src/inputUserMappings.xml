@@ -1271,6 +1271,7 @@
 
 	<mapping name="change_account" type="Button" SIEJADependent="true" >
 		<button id="IK_Pad_Y_TRIANGLE"/>
+		<button id="IK_C"/>
 	</mapping>
 	
 	<mapping name="left_button" type="Button" SIEJADependent="true" >
@@ -1577,6 +1578,11 @@
 		<button id="IK_MiddleMouse"/>
 	</mapping>
 
+	<mapping name="delete_wardrobe_set" type="Button" SIEJADependent="true" >
+		<button id="IK_Pad_Y_TRIANGLE"/>
+		<button id="IK_W"/>
+	</mapping>
+
 	<mapping name="preview_item" type="Button" SIEJADependent="true" >
 		<button id="IK_Pad_RightTrigger" thresholdPress="0.5" thresholdRelease="0.55"/>
 		<button id="IK_V"/>
@@ -1744,6 +1750,43 @@
 	
 	<mapping name="PhotoMode_Click" type="Button" SIEJADependent="true" >
 		<button id="IK_LeftMouse"/>
+	</mapping>
+	
+	<!-- UI - ARCADE MINIGAMES -->
+	<mapping name="minigame_select" type="Button" SIEJADependent="true" >
+        <button id="IK_F" overridableUI="selectChoice"/>
+        <button id="IK_Enter" />
+		<button id="IK_Pad_A_CROSS" />
+    </mapping>
+	
+	<mapping name="minigame_menu_up" type="Button" SIEJADependent="true" >
+		<button id="IK_Up" overridableUI="selectUpSecondary"/>
+		<button id="IK_Z"/>
+		<button id="IK_Pad_DigitUp"/>
+	</mapping>
+	
+	<mapping name="minigame_menu_down" type="Button" SIEJADependent="true" >
+		<button id="IK_Down" overridableUI="selectDownSecondary"/>
+		<button id="IK_S"/>
+		<button id="IK_Pad_DigitDown"/>
+	</mapping>
+	
+	<mapping name="minigame_pause" type="Button" SIEJADependent="true" >
+        <button id="IK_Escape" overridableUI="cancelSelection"/>
+		<button id="IK_Pad_Y_TRIANGLE" />
+    </mapping>
+	
+	<mapping name="minigame_back" type="Button" SIEJADependent="true" >
+		<button id="IK_Backspace" overridableUI="cancelSelection" />
+		<button id="IK_Pad_B_CIRCLE" />
+    </mapping>
+	
+	<mapping name="roach_race_jump" type="Button" SIEJADependent="true" >
+		<button id="IK_Up" />
+		<button id="IK_Z" />
+		<button id="IK_Space"overridableUI="selectUpSecondary" />
+		<button id="IK_Pad_A_CROSS"/>
+		<button id="IK_Pad_DigitUp"/>
 	</mapping>
 
     <!-- Issue reporting - we need to have it here as we want the tool to also work in final configuration. -->
