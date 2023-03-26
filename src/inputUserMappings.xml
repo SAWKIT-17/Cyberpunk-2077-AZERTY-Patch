@@ -134,7 +134,7 @@
 
 	<mapping name="QuestLeft" type="Axis" >
         <button id="IK_Pad_LeftAxisX" />
-        <button id="IK_A" val="-1.0" overridableUI="left" />
+        <button id="IK_Q" val="-1.0" overridableUI="left" />
     </mapping>    
 
 	<!-- PANELS -->
@@ -158,7 +158,7 @@
     </mapping>
 
 	<mapping name="Notification_Button" type="Button" >        
-		<button id="IK_Z" overridableUI="openNotifiation"/>
+		<button id="IK_W" overridableUI="openNotifiation"/>
 		<button id="IK_Pad_DigitLeft" />
     </mapping>
 	
@@ -534,7 +534,7 @@
     </mapping>
 
   	<mapping name="ToggleQHackDescription" type="Button" >
-		<button id="IK_Z" overridableUI="quickhackInfo"/>
+		<button id="IK_W" overridableUI="quickhackInfo"/>
 		<button id="IK_Pad_RightShoulder" />
     </mapping>	
 
@@ -677,7 +677,7 @@
 	
 	<mapping name="VehicleCameraToggle" type="Button" >
         <button id="IK_Pad_DigitRight" />
-		<button id="IK_Q" overridableUI="vehicleToggleCam"/>
+		<button id="IK_A" overridableUI="vehicleToggleCam"/>
     </mapping>
 	
 	<mapping name="Enter_Combat" type="Button" >
@@ -1065,7 +1065,7 @@
 
    	<mapping name="PrevItem_Button" type="Button" >
         <button id="IK_Pad_DigitLeft" />
-        <button id="IK_Q" overridableUI="selectUp"/>
+        <button id="IK_A" overridableUI="selectUp"/>
     </mapping>
 		
 	<mapping name="StopDeviceControl_Button" type="Button" >
@@ -1183,7 +1183,7 @@
 	</mapping>
 	
 	<mapping name="CameraStepForward" type="Button" >
-        <button id="IK_W" />
+        <button id="IK_Z" />
     </mapping>
 	
 	<mapping name="CameraStepBack" type="Button" >
@@ -1191,7 +1191,7 @@
     </mapping>
 	
 	<mapping name="CameraStepLeft" type="Button" >
-        <button id="IK_A" />
+        <button id="IK_Q" />
     </mapping>
 	
 	<mapping name="CameraStepRight" type="Button" >
@@ -1203,7 +1203,7 @@
     </mapping>
 
 	<mapping name="CameraStepDown" type="Button" >
-        <button id="IK_Q" />
+        <button id="IK_A" />
     </mapping>
 
 	<mapping name="FreeCam_FOV_Control" type="Button" >
@@ -1462,7 +1462,7 @@
 	
 	<mapping name="world_map_menu_cycle_filter_prev" type="Button" SIEJADependent="true" >
 		<button id="IK_Pad_DigitLeft"/>
-		<button id="IK_Q"/>
+		<button id="IK_A"/>
 	</mapping>
 
 	<mapping name="world_map_menu_cycle_filter_next" type="Button" SIEJADependent="true" >
@@ -1472,7 +1472,7 @@
 
 	<mapping name="world_map_filter_navigation_up" type="Button" SIEJADependent="true" >
 		<button id="IK_Pad_DigitUp"/>
-		<button id="IK_Z"/>
+		<button id="IK_W"/>
 	</mapping>
 	
 	<mapping name="world_map_filter_navigation_down" type="Button" SIEJADependent="true" >
@@ -1549,7 +1549,7 @@
     
 	<mapping name="disassemble_item" type="Button" SIEJADependent="true" >
 		<button id="IK_Pad_Y_TRIANGLE"/>
-		<button id="IK_Z"/>
+		<button id="IK_W"/>
 	</mapping>
 
 	<mapping name="craft_item" type="Button" SIEJADependent="true" >
@@ -1641,7 +1641,7 @@
 
 	<mapping name="option_switch_prev" type="Button" SIEJADependent="true" >
 		<button id="IK_Pad_LeftShoulder"/>
-		<button id="IK_A"/>
+		<button id="IK_Q"/>
 	</mapping>
 
 	<mapping name="option_switch_next_settings" type="Button" SIEJADependent="true" >
@@ -1651,12 +1651,12 @@
 
 	<mapping name="option_switch_prev_settings" type="Button" SIEJADependent="true" >
 		<button id="IK_Pad_DigitLeft" />
-		<button id="IK_A"/>
+		<button id="IK_Q"/>
 	</mapping>
 
 	<mapping name="brightness_settings" type="Button" SIEJADependent="true" >
 		<button id="IK_Pad_LeftThumb"/>
-		<button id="IK_Z"/>
+		<button id="IK_W"/>
 	</mapping>
 
 	<mapping name="controller_settings" type="Button" SIEJADependent="true" >
@@ -1670,7 +1670,7 @@
 	</mapping>
 
 	<mapping name="character_preview_rotate" type="Axis" >
-        <button id="IK_Q" val="1.0" overridableUI="selectUp" />
+        <button id="IK_A" val="1.0" overridableUI="selectUp" />
         <button id="IK_E" val="-1.0" overridableUI="selectDown" />
     </mapping>
 
@@ -1735,7 +1735,7 @@
 	
 	<mapping name="PhotoMode_Prior_Menu" type="Button" >
 		<button id="IK_Pad_LeftShoulder" />
-		<button id="IK_Q" overridableUI="selectUp" />
+		<button id="IK_A" overridableUI="selectUp" />
     </mapping>   
 	
 	<mapping name="PhotoMode_LoadSettings" type="Button" >
