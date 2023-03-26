@@ -1,17 +1,23 @@
 import os
 import shutil
+import tkinter as tk
+from tkinter import messagebox
+from tkinter import filedialog
 
-jeu_chemin = "C:\Program Files (x86)\GOG Galaxy\Games\Cyberpunk 2077"
-jeu_chemin = os.path.join(jeu_chemin, "r6", "config")
-if not os.path.exists(jeu_chemin):
+root = tk.Tk()
+root.withdraw()
+
+game_path = "C:\Program Files (x86)\GOG Galaxy\Games\Cyberpunk 2077"
+game_path = os.path.join(game_path, "r6", "config")
+if not os.path.exists(game_path):
     while True:
-        jeu_chemin = input('Veuillez indiquer le chemin jusqu\'au jeu: ')
-        jeu_chemin = os.path.join(jeu_chemin, "r6", "config")
-        if os.path.exists(jeu_chemin):
+        game_path = filedialog.askdirectory(title="Sélectionnez le dossier du jeu Cyberpunk 2077")
+        game_path = os.path.join(game_path, "r6", "config")
+        if os.path.exists(game_path):
             break
         else:
             os.system('cls')
-            print('Jeu non trouvé, veuillez réessayer.\n')
+            messagebox.showerror('Dossier introuvable', 'Le dossier sélectionné ne contient pas le jeu Cyberpunk 2077 !')
 
 os.system('cls')
 
@@ -21,9 +27,9 @@ for i in range(2):
 patch_chemin = os.path.join(patch_chemin, "src")
 
 patch_file = os.path.join(patch_chemin, 'inputUserMappings.xml')
-origin_file = os.path.join(jeu_chemin, 'inputUserMappings.xml')
+origin_file = os.path.join(game_path, 'inputUserMappings.xml')
 
 print(f"Patch \'{patch_file}\' ---> \'{origin_file}\'")
 err_copy = shutil.copyfile(patch_file, origin_file)
 if err_copy == origin_file:
-    print('\nTerminé avec succès !')
+    messagebox.showinfo('Patch appliqué', 'Le patch a été appliqué avec succès !')

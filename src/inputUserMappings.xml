@@ -1784,7 +1784,7 @@
 	<mapping name="roach_race_jump" type="Button" SIEJADependent="true" >
 		<button id="IK_Up" />
 		<button id="IK_Z" />
-		<button id="IK_Space"overridableUI="selectUpSecondary" />
+		<button id="IK_Space" overridableUI="selectUpSecondary" />
 		<button id="IK_Pad_A_CROSS"/>
 		<button id="IK_Pad_DigitUp"/>
 	</mapping>
