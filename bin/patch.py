@@ -21,12 +21,12 @@ if not os.path.exists(game_path):
 
 os.system('cls')
 
-patch_chemin = os.path.realpath(__file__)
+patch_path = os.path.realpath(__file__)
 for i in range(2):
-    patch_chemin = os.path.dirname(patch_chemin)
-patch_chemin = os.path.join(patch_chemin, "src")
+    patch_path = os.path.dirname(patch_path)
+patch_path = os.path.join(patch_path, "src")
 
-patch_file = os.path.join(patch_chemin, 'inputUserMappings.xml')
+patch_file = os.path.join(patch_path, 'inputUserMappings.xml')
 origin_file = os.path.join(game_path, 'inputUserMappings.xml')
 
 print(f"Patch \'{patch_file}\' ---> \'{origin_file}\'")
