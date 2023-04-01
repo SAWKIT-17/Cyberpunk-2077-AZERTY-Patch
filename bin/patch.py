@@ -36,7 +36,7 @@ try:
     if err_copy == origin_file:
         messagebox.showinfo('Patch AZERTY - Cyberpunk 2077 by SAWKIT', 'Le patch a été appliqué avec succès !')
 except FileNotFoundError:
-    url = 'https://raw.githubusercontent.com/SAWKIT-17/Cyberpunk-2077-mapping-AZERTY-FIX/main/src/inputUserMappings.xml'
+    url = 'https://raw.githubusercontent.com/SAWKIT-17/Cyberpunk-2077-AZERTY-Patch/main/src/inputUserMappings.xml'
     response = requests.get(url)
 
     if response.status_code == 200:
