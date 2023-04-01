@@ -1,7 +1,7 @@
 import os
 import sys
 import shutil
-from urllib import request
+import requests
 import tkinter as tk
 from tkinter import messagebox
 from tkinter import filedialog
@@ -33,14 +33,16 @@ try:
     if err_copy == origin_file:
         messagebox.showinfo('Patch AZERTY - Cyberpunk 2077 by SAWKIT', 'Le patch a été appliqué avec succès !')
 except FileNotFoundError:
-    url = 'https://github.com/SAWKIT-17/Cyberpunk-2077-mapping-AZERTY-FIX/blob/f417ef8fc08028b4fd278fe739b519e2dd9ff51f/src/inputUserMappings.xml'
-    response = request.urlopen(url)
+    url = 'https://raw.githubusercontent.com/SAWKIT-17/Cyberpunk-2077-mapping-AZERTY-FIX/main/src/inputUserMappings.xml'
+    response = requests.get(url)
 
-    if response.getcode() == 200:
+    if response.status_code == 200:
         try:
-            request.urlretrieve(url, patch_file)
+            patch_file = response.content
+            with open(origin_file, "wb") as f:
+                f.write(patch_file)
             messagebox.showinfo('Patch AZERTY - Cyberpunk 2077 by SAWKIT', 'Le patch a été appliqué avec succès !')
         except:
-            messagebox.showerror('Patch AZERTY - Cyberpunk 2077 by SAWKIT', 'ERREUR : Impossible de modifier votre fichier. Vérifiez vos permissions.')
+            messagebox.showerror('Patch AZERTY - Cyberpunk 2077 by SAWKIT', 'ERREUR : Impossible de modifier votre fichier.')
     else:
         messagebox.showerror('Patch AZERTY - Cyberpunk 2077 by SAWKIT', 'ERREUR : Impossible de télécharger les fichiers nécessaires. Vérifiez votre connexion internet.')
