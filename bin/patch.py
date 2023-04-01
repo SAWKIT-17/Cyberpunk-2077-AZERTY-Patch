@@ -12,6 +12,7 @@ root.withdraw()
 game_path = "C:\Program Files (x86)\GOG Galaxy\Games\Cyberpunk 2077"
 game_path = os.path.join(game_path, "r6", "config")
 if not os.path.exists(game_path):
+    messagebox.showinfo('Patch AZERTY - Cyberpunk 2077 by SAWKIT', 'Le dossier du jeu est introuvable ! Veuillez sélectionner le dossier du jeu.')
     while True:
         game_path = filedialog.askdirectory(title="Sélectionnez le dossier du jeu Cyberpunk 2077")
         game_path = os.path.join(game_path, "r6", "config")
