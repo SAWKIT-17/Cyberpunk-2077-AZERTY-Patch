@@ -23,8 +23,10 @@ if not os.path.exists(game_path):
 
 if getattr(sys, 'frozen', False):
     patch_path = os.path.dirname(sys.executable)
+    patch_path = os.path.join(patch_path, 'src')
 else:
     patch_path = os.path.dirname(os.path.abspath(__file__))
+    patch_path = os.path.join(patch_path, 'src')
 
 patch_file = os.path.join(patch_path, 'inputUserMappings.xml')
 origin_file = os.path.join(game_path, 'inputUserMappings.xml')
