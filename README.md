@@ -1,4 +1,4 @@
-# Cyberpunk 2077 - Mapping clavier AZERTY |FIX|
+# Cyberpunk 2077 - Mapping AZERTY |PATCH|
 ## DESCRIPTION
 Hellooooooo Night City !
 Ce patch permet de remapper le jeu CyberPunk 2077 pour les claviers AZERTY.
@@ -17,8 +17,9 @@ ATTENTION : Vos touches seront mises par défaut. Il faudra les réassigner à v
 ## INSTRUCTION
 1. DÉCOMPRESSER LE ZIP
 2. LANCER 'patch.exe'
-3. CHOISIR L'EMPLACEMENT DU JEU
-4. ENJOY !
+3. CHOISIR L'EMPLACEMENT DU JEU (Si nécessaire)
+4. Patientez
+5. ENJOY !
 
 [![Download here](https://img.shields.io/github/downloads/40nyx/Cyberpunk-2077-mapping-AZERTY-FIX/total?style=for-the-badge)](https://github.com/SAWKIT-17/Cyberpunk-2077-mapping-AZERTY-FIX/releases/download/v1.1/Cyberpunk-2077-mapping-AZERTY-FIX.zip)
 
