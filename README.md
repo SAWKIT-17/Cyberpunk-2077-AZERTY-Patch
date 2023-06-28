@@ -21,7 +21,7 @@ ATTENTION : Vos touches seront mises par défaut. Il faudra les réassigner à v
 4. Patientez
 5. ENJOY !
 
-[![Download here](https://img.shields.io/github/downloads/40nyx/Cyberpunk-2077-mapping-AZERTY-FIX/total?style=for-the-badge)](https://github.com/SAWKIT-17/Cyberpunk-2077-mapping-AZERTY-FIX/releases/download/v1.1/Cyberpunk-2077-mapping-AZERTY-FIX.zip)
+[![Download here](https://img.shields.io/github/downloads/40nyx/Cyberpunk-2077-mapping-AZERTY-FIX/total?style=for-the-badge)](https://github.com/SAWKIT-17/Cyberpunk-2077-AZERTY-Patch/releases/download/v1.1/Cyberpunk.2077.-.AZERTY.Patch.by.SAWKIT.zip)
 
 
 ![](https://i.giphy.com/media/qWi6NKfkrt9TgXvIfg/giphy.webp)
