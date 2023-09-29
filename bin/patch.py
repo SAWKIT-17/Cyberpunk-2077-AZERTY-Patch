@@ -1,5 +1,7 @@
 import os
 import shutil
+import sys
+
 import tkinter as tk
 from tkinter import messagebox
 from tkinter import filedialog
@@ -94,8 +96,8 @@ def restore():
         messagebox.showerror('Patch AZERTY - Cyberpunk 2077', 'Aucune sauvegarde disponible.')
 
 def on_closing():
-    root.destroy()
-    exit(0)
+    #root.destroy()
+    sys.exit(0)
 
 def main():
     root = tk.Tk()
