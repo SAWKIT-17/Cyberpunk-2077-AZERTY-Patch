@@ -2,7 +2,7 @@
 
 **Maintenant compatible avec le version 2.0 !**
 
-<img src='https://static.cdprojektred.com/cms.cdprojektred.com/16x9_big/be5a1604f343edb72e4073e22450ab1bf56956a0-1280x720.jpg' width='200'>
+<img src='https://static.cdprojektred.com/cms.cdprojektred.com/16x9_big/be5a1604f343edb72e4073e22450ab1bf56956a0-1280x720.jpg' width='400'>
 
 ## DESCRIPTION
 
