@@ -29,6 +29,6 @@ Si jamais vous souhaitez restaurer votre ancien mapping, il est toujours possibl
 5. PATIENTEZ
 6. ENJOY !
 
-[![Download here](https://img.shields.io/github/downloads/40nyx/Cyberpunk-2077-mapping-AZERTY-FIX/total?style=for-the-badge)](https://github.com/SAWKIT-17/Cyberpunk-2077-AZERTY-Patch/releases/download/v1.1/Cyberpunk.2077.-.AZERTY.Patch.by.SAWKIT.zip)
+[![Download here](https://img.shields.io/github/downloads/40nyx/Cyberpunk-2077-mapping-AZERTY-FIX/total?style=for-the-badge)](https://github.com/SAWKIT-17/Cyberpunk-2077-AZERTY-Patch/releases/download/v2.0/patch.zip)
 
 ![](https://i.giphy.com/media/qWi6NKfkrt9TgXvIfg/giphy.webp)
