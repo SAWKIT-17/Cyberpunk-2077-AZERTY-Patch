@@ -23,7 +23,7 @@ Si jamais vous souhaitez restaurer votre ancien mapping, il est toujours possibl
 ## INSTRUCTION
 
 1. DÉCOMPRESSER LE ZIP
-2. LANCER 'patch.exe'
+2. LANCER 'patch'
 3. CHOISIR L'EMPLACEMENT DU JEU (Si nécessaire)
 4. CHOISIR ENTRE 'Patch' et 'Restore'
 5. PATIENTEZ
